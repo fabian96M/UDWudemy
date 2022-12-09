@@ -1,9 +1,13 @@
 
         h1{
             color: blue;
+            align-content: center;
         }
         p{
-            color: azure;
-           /* background-color: crimson;  */
+            color: rgb(33, 220, 220);
+            background-color: crimson;  
+           padding: 15px;
+           border: 10px solid powderblue;
+           margin: 50px;
         }
    
