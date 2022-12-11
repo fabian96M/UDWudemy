@@ -1,17 +1,19 @@
 
         h1{
             color: blue;
-            align-content: center;
+            margin-left: 100px;
+           /* align-content: center;*/
         }
         p{
             color: rgb(33, 220, 220);
-            background-color: crimson;  
+            background-color: crimson;
+           /* margin: 50px 100px;*/  
            padding: 15px;
            border: 10px solid powderblue;
-           margin-top: 40px solid blue;
-           margin-right: 10px;
+           margin-top: 10px solid blue;
+           margin-right: 20px;
            margin-bottom: 20px;
-           margin-left: 10px; 
+           margin-left: 80px; 
            
            
 
