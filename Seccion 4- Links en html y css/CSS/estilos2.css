@@ -1,0 +1,13 @@
+h1{
+    color: #16a085;
+}
+a:link, a:visited{
+    background-color: #3498db;
+    color: #e74c3c;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover,a:active{
+    background-color: #2980b9;
+}

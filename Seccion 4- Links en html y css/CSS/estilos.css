@@ -1,0 +1,24 @@
+h1{
+
+    color: #9b59b6;
+}
+p{
+    color:#2c3e50 ;
+}
+/*Color inicial x defecto del link*/
+a:link{
+  color: #d35400;
+}
+/*es la coloracion del link cuando ya es visitado*/
+a:visited{
+    color: #16a085;
+}
+/*Cuando se coloca el cursor sobre el link*/
+a:hover{
+    color: #f39c12;
+    text-decoration:underline
+}
+/* mientras se presiona con el boton 1 del mouse*/
+a:active{
+    color: #2c3e50;
+}
