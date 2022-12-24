@@ -1,0 +1,19 @@
+ol {
+  list-style: none;
+  /*inicializamos una variable de counter llamada 'contador'*/
+  counter-reset: contador;
+}
+ol li {
+  /*Se incrementa el contador cada vez que se utiliza una lista de tipo ol*/
+  counter-increment: contador;
+}
+/*añade un texto antes de cada elemnto de la lista*/
+ol li::before {
+  /*el texto que se escribe en la parte de counter varia segun el orden y el numero de listas*/
+  content: " Curso " counter(contador) ") ";
+  color: #ff6f00;
+}
+/*añade texto de contenido despues de la etiqueta ol*/
+ol li::after {
+  content: " -GlobalMentoring.com";
+}
